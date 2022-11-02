@@ -8,7 +8,7 @@ function randomColor() {
     return hex;
 }
 
-function assignment() {
+function changeColor() {
     let colorhex = "#" + randomColor();
     document.getElementById("hex-color").innerHTML = colorhex;
     document.getElementById("body").style.backgroundColor = colorhex;
