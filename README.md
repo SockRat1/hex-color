@@ -1,1 +1,2 @@
-# hex-color.github.io
+# hex-color
+
