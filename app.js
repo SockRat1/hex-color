@@ -12,4 +12,5 @@ function assignment() {
     let colorhex = "#" + randomColor();
     document.getElementById("hex-color").innerHTML = colorhex;
     document.getElementById("body").style.backgroundColor = colorhex;
+    document.getElementById("body").style.transition = "all 2s";
 }
