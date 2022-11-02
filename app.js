@@ -5,10 +5,11 @@ function randomColor() {
         let color = Math.floor(Math.random() * ArrayHex.length)
         hex += ArrayHex[color];
     }
-    assignment()
+    return hex;
 }
 
 function assignment() {
-    document.getElementById("hex-color").innerHTML = "#" + hex;
-    document.getElementById("body").style.backgroundColor = "#" + hex;
+    let colorhex = "#" + randomColor();
+    document.getElementById("hex-color").innerHTML = colorhex;
+    document.getElementById("body").style.backgroundColor = colorhex;
 }
